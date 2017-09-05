@@ -6,8 +6,21 @@ error handling.
 ## Usage
 
 You need to *require* the module (only) once by application for example in app.js:
-```javascript 1.8
+```javascript
 require("express-async");
+```
+
+After this you can use async middlewares normally, like this:
+```javascript
+const router = express.Router();
+router.get('/', async (req, res, /* next */) => {
+    // You don't need the try-catch
+    // try {
+    ... your code
+    // } catch(err) {
+    //     next(err);
+    // }
+})
 ```
 
 ## How it works
