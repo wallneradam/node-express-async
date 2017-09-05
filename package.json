@@ -1,0 +1,21 @@
+{
+  "author": "Adam Wallner",
+  "name": "express-async",
+  "description": "Automatically handle all unhandled errors in async middlewares",
+  "version": "0.1.0",
+  "license": "BSD 3-Clause License",
+  "homepage": "https://github.com/wallneradam/express-async",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wallneradam/express-async.git"
+  },
+  "main": "./",
+  "engines": {
+    "node": "^8.0.0"
+  },
+  "dependencies": {
+    "express": "^4.15.4",
+    "methods": "^1.1.2"
+  },
+  "devDependencies": {}
+}
