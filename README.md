@@ -1,4 +1,4 @@
-# express-async
+# node-express-async
 Automatically handles unhandled async middleware errors by sending them to next() function.
 This way you don't need and you won't forget to try-catch all middlewares for default 
 error handling.
@@ -7,7 +7,7 @@ error handling.
 
 You need to *require* the module (only) once by application for example in app.js:
 ```javascript
-require("express-async");
+require("node-express-async");
 ```
 
 After this you can use async middlewares normally, like this:
